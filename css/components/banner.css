@@ -1,0 +1,15 @@
+.banner {
+  background: linear-gradient(#eec2c2, #9e9ece), url("https://unsplash.com/photos/a-black-and-white-photo-of-a-womans-hair-stcl1Pj2WzY");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  min-height: 8rem;
+}
+
+.banner h1 {
+  font-size: 3rem;
+}
+
+.banner p {
+  font-size: 2rem;
+}

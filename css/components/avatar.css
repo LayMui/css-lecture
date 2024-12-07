@@ -1,0 +1,24 @@
+.avatar {
+  border-radius: 50%;
+  width: 5rem;
+  /* prefered to use rem unit */
+}
+
+.avatar-position {
+  position: absolute; /* absolute to the parent element div */
+  /* right: 2rem;
+  top: -2rem; */
+  left: 50%;
+  transform: translate(-50%, 50%)
+}
+/* apply to mobile view
+* beyond 768px it will be font-size 16px
+* 16px is the default font size for desktop */
+ @media screen and (max-width: 768px) {
+  html {
+    font-size: 12px
+  }
+
+
+
+ }

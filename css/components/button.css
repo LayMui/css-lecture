@@ -1,0 +1,16 @@
+.btn {
+  background-color: black;
+  border-radius: 4em;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgb(252, 8, 8);
+}
+
+.btn-block {
+  display: inline-block;
+}

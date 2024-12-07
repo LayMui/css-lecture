@@ -1,0 +1,12 @@
+.container {
+  padding:40px;
+  /* justify-content: center; */
+}
+
+/* if we stretch your browser, this is the max width else it will look ugly,
+** if you shrink, it will grow smaller */
+.container-max-width {
+ max-width: 800px;
+ margin: 0 auto;
+ background-color: aliceblue;
+}

@@ -1,0 +1,13 @@
+@import "./components/button.css";
+@import "./components/container.css";
+@import "./components/avatar.css";
+@import "./components/banner.css";
+@import "./components/card.css";
+ /* means apply to the entire  */
+ /* you need to set display: inline-block in the element  */
+* {
+ html {
+  margin: 0;
+  line-height: inherit;
+ }
+}
