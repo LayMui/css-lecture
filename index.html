@@ -5,6 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
+
+
+
+  <!-- explain difference between em and rem
+   em is immediate parent font-size which is 42px
+   rem is to root html font size -->
+
+  <!-- <div>
+    <div style="font-size: 42px">
+        <h1 style="font-size: 1em">em</h1>
+        <h1 style="font-size: 1rem">rem</h1>
+    </div>
+  </div> -->
+</head>
+<body>
   <div class="banner">
     <div class="container">
 
@@ -41,19 +56,21 @@
     </div>
   </div>
 
-
-  <!-- explain difference between em and rem
-   em is immediate parent font-size which is 42px
-   rem is to root html font size -->
-
-  <!-- <div>
-    <div style="font-size: 42px">
-        <h1 style="font-size: 1em">em</h1>
-        <h1 style="font-size: 1rem">rem</h1>
+  <div style="height: 48px; width: 200px; background: blue;">
+    <div style="position: absolute; right: 0; width: 100px;">
+        this does nothing because theis element with absolute
+        positioning
+        does
+        not know it has to take reference from the blue rectangle
     </div>
-  </div> -->
-</head>
-<body>
+  </div>
 
+  <div style="height: 48px; width: 200px; background: yellow; position:relative;">
+    <div style="position: absolute; right: 0; width: 100px;">
+      this correctly positions because the parent
+      element has
+      relative
+    </div>
+  </div>
 </body>
 </html>
